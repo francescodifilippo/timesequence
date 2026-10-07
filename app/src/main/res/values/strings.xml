@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sequenza Timer</string>
+
+    <!-- Home -->
+    <string name="home_empty_title">No sequences</string>
+    <string name="home_empty_subtitle">Create your first timer sequence</string>
+    <string name="home_create_first">Create sequence</string>
+
+    <!-- Editor -->
+    <string name="editor_title_new">New Sequence</string>
+    <string name="editor_title_edit">Edit Sequence</string>
+    <string name="editor_name_label">Sequence name</string>
+    <string name="editor_name_placeholder">e.g. Box Breathing 4-7-8</string>
+    <string name="editor_phases_header">Phases</string>
+    <string name="editor_add_phase">Add phase</string>
+    <string name="editor_phase_name_label">Phase name</string>
+    <string name="editor_phase_name_placeholder">e.g. Inhale</string>
+    <string name="editor_phase_duration">Duration (seconds)</string>
+    <string name="editor_repeat_header">Repetition</string>
+    <string name="editor_repeat_count">Repetitions</string>
+    <string name="editor_total_duration">Total duration</string>
+    <string name="editor_infinite">Infinite</string>
+    <string name="editor_infinite_hint">The sequence will repeat until you stop it manually.</string>
+    <string name="editor_duration_error">Duration must be greater than 0</string>
+    <string name="editor_minutes">min</string>
+    <string name="editor_seconds">sec</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_save_and_play">Save &amp; Play</string>
+    <string name="editor_color_picker_title">Choose color</string>
+    <string name="editor_default_phase_name">Phase</string>
+
+    <!-- Editor - discard -->
+    <string name="editor_discard_title">Unsaved changes</string>
+    <string name="editor_discard_message">You have unsaved changes. Leave without saving?</string>
+    <string name="editor_discard_yes">Leave</string>
+    <string name="editor_discard_no">Stay</string>
+
+    <!-- Playback -->
+    <string name="playback_cycle">Cycle %1$d of %2$d</string>
+    <string name="playback_cycle_unlimited">Cycle %1$d</string>
+    <string name="playback_finished">Sequence completed!</string>
+    <string name="playback_close">Close</string>
+    <string name="playback_pause">Pause</string>
+    <string name="playback_resume">Resume</string>
+    <string name="playback_stop">Stop</string>
+    <string name="playback_skip">Skip</string>
+    <string name="playback_restart">Restart</string>
+    <string name="playback_loading">Loading\u2026</string>
+    <string name="playback_not_found">Sequence not found</string>
+    <string name="playback_stop_confirm_title">Stop sequence?</string>
+    <string name="playback_stop_confirm_message">The sequence is running. Do you want to stop it?</string>
+
+    <!-- Dialogs -->
+    <string name="delete_confirm_title">Delete sequence</string>
+    <string name="delete_confirm_message">Delete \"%1$s\"? This action cannot be undone.</string>
+    <string name="delete_confirm_yes">Delete</string>
+    <string name="delete_confirm_no">Cancel</string>
+
+    <!-- Accessibility / content descriptions -->
+    <string name="cd_create_new">Create new sequence</string>
+    <string name="cd_play">Play</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_move_up">Move up</string>
+    <string name="cd_move_down">Move down</string>
+    <string name="cd_remove_phase">Remove phase</string>
+
+    <!-- SequenceCard summary -->
+    <string name="summary_phase_singular">1 phase</string>
+    <string name="summary_phase_plural">%d phases</string>
+    <string name="summary_repetition_singular">1 repetition</string>
+    <string name="summary_repetition_plural">%d repetitions</string>
+    <string name="summary_total_format">%s total</string>
+    <string name="summary_infinite">infinite</string>
+</resources>
